@@ -93,3 +93,17 @@ mod_jk.conf
 #### 보안 취약점 조치
 
 #### SSL 오프로딩 (SSL Offloading)
+
+<ul class="footer_nav">
+    {%- if prev %}
+      <li class="prev">
+        Previous topic: <a href="{{ prev.link|e }}">{{ prev.title }}</a>
+      </li>
+    {%- endif %}
+
+    {%- if next %}
+      <li class="next">
+        Next topic: <a href="{{ next.link|e }}">{{ next.title }}</a>
+      </li>
+    {%- endif %}
+</ul>
